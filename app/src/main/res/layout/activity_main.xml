@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#990000"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible">
+
+        <Spinner
+            android:id="@+id/spin_sound_001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seek_volume_001"
+            style="@android:style/Widget.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:thumb="@color/colorPrimary"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/spin_sound_002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seek_volume_002"
+            style="@android:style/Widget.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:thumb="@color/colorPrimary"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/spin_sound_003"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seek_volume_003"
+            style="@android:style/Widget.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:thumb="@color/colorPrimary"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/spin_sound_004"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seek_volume_004"
+            style="@android:style/Widget.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:thumb="@color/colorPrimary"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/spin_sound_005"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seek_volume_005"
+            style="@android:style/Widget.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:thumb="@color/colorPrimary"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/spin_sound_006"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seek_volume_006"
+            style="@android:style/Widget.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:thumb="@color/colorPrimary"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
