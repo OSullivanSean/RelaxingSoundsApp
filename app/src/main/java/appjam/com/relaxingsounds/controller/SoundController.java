@@ -1,4 +1,4 @@
-package appjam.com.relaxingsounds.audio;
+package appjam.com.relaxingsounds.controller;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,6 +9,8 @@ import android.widget.SeekBar;
 import android.widget.Spinner;
 import java.util.List;
 import appjam.com.relaxingsounds.R;
+import appjam.com.relaxingsounds.audio.LoopMediaPlayer;
+import appjam.com.relaxingsounds.config.SoundConfigManager;
 
 public class SoundController {
 

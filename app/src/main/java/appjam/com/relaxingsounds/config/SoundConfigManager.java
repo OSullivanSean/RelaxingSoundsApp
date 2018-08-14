@@ -1,4 +1,4 @@
-package appjam.com.relaxingsounds.audio;
+package appjam.com.relaxingsounds.config;
 
 import java.util.ArrayList;
 import java.util.HashMap;

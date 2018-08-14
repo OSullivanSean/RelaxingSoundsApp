@@ -2,7 +2,7 @@ package appjam.com.relaxingsounds;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import appjam.com.relaxingsounds.audio.SoundControllersManager;
+import appjam.com.relaxingsounds.controller.SoundControllersManager;
 
 public class MainActivity extends AppCompatActivity {
 

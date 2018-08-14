@@ -1,4 +1,4 @@
-package appjam.com.relaxingsounds.audio;
+package appjam.com.relaxingsounds.config;
 
 public class SoundConfig {
 
